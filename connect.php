@@ -8,9 +8,9 @@
 
 // Simply Update the Host, Username  and Password to match your SQL server. Also ensure that the database name is  'fids' and has been created as a utf16_bin database. For any help please don't hestiate to email openfids@henrus1.com for support.
 
-$host		=	'localhost';
-$usrname	=	'hot';
-$passwd		=	'hots';
+$host		=	'sql12.freemysqlhosting.net';
+$usrname	=	'sql12724440';
+$passwd		=	'kZiKDlfqg7';
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
@@ -27,7 +27,7 @@ $passwd		=	'hots';
 ////////////////////////////////////////////
 ////////////////////////////////////////////
 
-$dbname		=	'fids';
+$dbname		=	'sql12724440';
 
 $conn = new mysqli($host, $usrname, $passwd, $dbname);
 
